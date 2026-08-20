@@ -1,26 +1,39 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
+owner: audioeptesicus # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: 7thspectrum.net
+    url: https://7thspectrum.net
+  - name: Cams
+    url: https://cams.7thspectrum.net
+  - name: Plex
+    url: https://plex.7thspectrum.net
+  - name: Plex Requests
+    url: https://request.7thspectrum.net
+  - name: Nextcloud
+    url: https://drive.7thspectrum.net
+  - name: Pass
+    url: https://pass.7thspectrum.net
+  - name: Home Assistant
+    url: https://ha.7thspectrum.net
+  - name: GitLab
+    url: https://git.7thspectrum.net
+  - name: Cams - captcolour
+    url: https://cams.captcolour.com
+  - name: Cams - farmhouse
+    url: https://farmhouse.captcolour.com
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  cname: status.7thspectrum.net
+  baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  #introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
